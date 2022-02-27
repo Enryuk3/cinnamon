@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-9">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinnamon/title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="container mx-auto h-auto h-screen flex items-center justify-center">
+    <div class="keys flex flex-row justify-center">
+      <div   class="flex flex-col items-center mx-4">
+        <kbd class=" flex justify-center items-center w-9 h-9 border-2 border-yellow-300   text-white">A</kbd>
+        <span class="sound text-white">pikachu</span>
+      </div>
+
+
+      <div  class="flex flex-col items-center mx-4">
+        <kbd class=" flex justify-center items-center w-9 h-9 border-2 border-yellow-500 text-white">S</kbd>
+        <span class="sound text-white">psyduck</span>
+      </div>
+      
+      <div  class="flex flex-col items-center mx-4">
+        <kbd class=" flex justify-center items-center w-9 h-9 border-2 border-green-500 text-white">D</kbd>
+        <span class="sound text-white">bulbasaur</span>
+      </div>
+
+
+      <div  class="flex flex-col items-center mx-4">
+        <kbd class=" flex justify-center items-center w-9 h-9 border-2 border-orange-600 text-white">F</kbd>
+        <span class="sound text-white">cyndaquil</span>
+      </div>
+      
+      
+      <div  class="flex flex-col items-center mx-4">
+        <kbd class=" flex justify-center items-center w-9 h-9 border-2 border-sky-300 text-white">G</kbd>
+        <span class="sound text-white">squirtle</span>
+      </div>
+      
+      
+      <div  class="flex flex-col items-center mx-4">
+        <kbd class=" flex justify-center items-center w-9 h-9 border-2 border-blue-400 text-white">H</kbd>
+        <span class="sound text-white">totodile</span>
+      </div>
+      
+      <div  class="flex flex-col items-center mx-4">
+        <kbd class=" flex justify-center items-center w-9 h-9 border-2 border-green-600 text-white">J</kbd>
+        <span class="sound text-white">treecko</span>
+      </div>
+      
+    </div>
+  </div>
+  
+  <audio data-key="KeyA" src="./assets/audio/pikachu.mp3"></audio>
+  <audio data-key="KeyS" src="./assets/audio/psyduck.mp3"></audio>
+  <audio data-key="KeyD" src="./assets/audio/Bulbasaur.wav"></audio>
+  <audio data-key="KeyF" src="./assets/audio/cyndaquil.wav"></audio>
+  <audio data-key="KeyG" src="./assets/audio/squirtle.mp3"></audio>
+  <audio data-key="KeyH" src="./assets/audio/tododile.wav"></audio>
+  <audio data-key="KeyJ" src="./assets/audio/treecko.wav"></audio>
+
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
